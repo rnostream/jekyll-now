@@ -49,4 +49,5 @@
     {% endfor %}
 </ul>
 {% endif %}
-{% endcapture %}{{ html | strip_newlines | replace:' ','' | replace:' ','' | replace:' ',' ' }}
+{% endcapture %}
+    {% comment %}{{ html | strip_newlines | replace:' ','' | replace:' ','' | replace:' ',' ' }}{% endcomment %}
